@@ -2,6 +2,7 @@
 <p>Este é um código de reconhecimento de objetos desenvolvido em Python utilizando a biblioteca OpenCV.</p>
 <h2>Descrição do Projeto</h2>
 <p>O reconhecimento de objetos é uma tarefa fundamental em visão computacional e inteligência artificial. Este código utiliza algoritmos de aprendizado de máquina para identificar e classificar objetos, aqui foi utilizado canecas e logos como teste, em imagens ou vídeos (através da webcam).</p>
+<img src="./reconhecimento_objetos_head.jpg" alt="Reconhecimento de Objetos">
 <h2>Funcionalidades</h2>
 <ul>
     <li><strong>Detectar objetos em imagens:</strong> O código é capaz de identificar e delimitar objetos em imagens estáticas.</li>
