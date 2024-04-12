@@ -1,7 +1,7 @@
 <h1>Reconhecimento de Objetos em Python</h1>
 <p>Este é um código de reconhecimento de objetos desenvolvido em Python utilizando a biblioteca OpenCV.</p>
 <h2>Descrição do Projeto</h2>
-<p>O reconhecimento de objetos é uma tarefa fundamental em visão computacional e inteligência artificial. Este código utiliza algoritmos de aprendizado de máquina para identificar e classificar objetos em imagens ou vídeos.</p>
+<p>O reconhecimento de objetos é uma tarefa fundamental em visão computacional e inteligência artificial. Este código utiliza algoritmos de aprendizado de máquina para identificar e classificar objetos, aqui foi utilizado canecas e logos como teste, em imagens ou vídeos (através da webcam).</p>
 <h2>Funcionalidades</h2>
 <ul>
     <li><strong>Detectar objetos em imagens:</strong> O código é capaz de identificar e delimitar objetos em imagens estáticas.</li>
@@ -14,12 +14,17 @@
 <p>Para utilizar este código, siga estas etapas:</p>
 
 <ol>
-    <li>Baixe o código-fonte ou clone este repositório.</li>
+    <li>Baixe o código-fonte ou clone este repositório:</li>
+    <pre><code>git clone https://github.com/GiooEsteves/reconhecimento_Objetos.git</code></pre>
     <li>Instale as dependências necessárias, como OpenCV e outras bibliotecas Python, utilizando o pip:</li>
     <pre><code>pip install opencv-python</code></pre>
-    <li>Execute o código fornecido, especificando a imagem de entrada ou a fonte de vídeo.</li>
-    <pre><code>python reconhecimento_objetos.py --imagem imagem.jpg</code></pre>
-    <pre><code>python reconhecimento_objetos.py --video video.mp4</code></pre>
+    <li>Execute o código fornecido:</li>
+    <p>Para identificar canecas</p>
+    <pre><code>python teste_canecas.py</code></pre>
+    <p>Para identificar logos</p>
+    <pre><code>python teste_logo.py</code></pre>
+    <p>Para identificar canecas e logos através da webcam</p>
+    <pre><code>python teste_webcam.py</code></pre>
 </ol>
 
 <h2>Licença</h2>
